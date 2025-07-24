@@ -18,3 +18,8 @@
 **/lwc/**
 # Exclude all Layouts
 # **/layouts/*.layout-meta.xml
+
+#Exclude email templates from auto resolve:
+
+**/email/**/*.email
+**/email/**/*.email-meta.xml
