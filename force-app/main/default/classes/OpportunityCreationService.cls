@@ -2,6 +2,10 @@
  * @description Service class for creating and managing Opportunities
  * @author CopadoAI
  * @date 2025-11-17
+ * @date 2025-11-18 updated by ganesh for the manual promotion test scenario in Opportunity Creation service class
+ * @developer name: Ganesh
+ */
+//Testing command created for the SFDX promotion branch manual update will make the changes in org level or only in the branch level. Opportunity Creation service class updated..
  */
 public with sharing class OpportunityCreationService {
     
