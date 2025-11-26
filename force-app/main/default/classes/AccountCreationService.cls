@@ -17,6 +17,11 @@ public with sharing class AccountCreationService {
             throw new AccountCreationException('Account name cannot be blank');
         }
         
+        // Check field-level security
+        if (!Schema.sObjectType.Account.isCreateable()) {
+            throw new AccountCreationException('Insufficient permissions to create Account records');
+        }
+        
         Account newAccount = new Account(
             Name = accountName,
             Industry = industry,
@@ -39,6 +44,11 @@ public with sharing class AccountCreationService {
     public static List<Id> createAccounts(List<AccountWrapper> accountWrappers) {
         if (accountWrappers == null || accountWrappers.isEmpty()) {
             throw new AccountCreationException('Account list cannot be null or empty');
+        }
+        
+        // Check field-level security
+        if (!Schema.sObjectType.Account.isCreateable()) {
+            throw new AccountCreationException('Insufficient permissions to create Account records');
         }
         
         List<Account> accountsToInsert = new List<Account>();
@@ -80,6 +90,11 @@ public with sharing class AccountCreationService {
     public static void updateAccounts(List<Account> accountsToUpdate) {
         if (accountsToUpdate == null || accountsToUpdate.isEmpty()) {
             return;
+        }
+        
+        // Check field-level security
+        if (!Schema.sObjectType.Account.isUpdateable()) {
+            throw new AccountCreationException('Insufficient permissions to update Account records');
         }
         
         try {
