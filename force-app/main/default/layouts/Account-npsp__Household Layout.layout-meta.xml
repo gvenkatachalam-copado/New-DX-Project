@@ -35,10 +35,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Employee_Id__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>USAA_Employee_Name__c</field>
             </layoutItems>
             <layoutItems>
