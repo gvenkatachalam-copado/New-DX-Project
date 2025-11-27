@@ -35,10 +35,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>CCH_scan_issue__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Employee_Name__c</field>
             </layoutItems>
             <layoutItems>
