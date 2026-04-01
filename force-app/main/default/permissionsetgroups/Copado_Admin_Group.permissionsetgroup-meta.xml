@@ -17,6 +17,10 @@
     <permissionSets>copado__Teams_Management_Admin</permissionSets>
     <permissionSets>copado__User_Story_Task_Admin</permissionSets>
     <permissionSets>copado__Work_Manager_Admin</permissionSets>
+    <permissionSets>force__AncCrmIntegrationUser</permissionSets>
+    <permissionSets>force__AncMarketingIntegrationUser</permissionSets>
+    <permissionSets>force__AncPersonalizationIntegrationUser</permissionSets>
+    <permissionSets>force__AncProvisioningIntegrationUser</permissionSets>
     <permissionSets>force__CodeBuilderUserPsl</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
