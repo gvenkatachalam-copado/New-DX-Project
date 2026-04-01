@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Copado Admin Group</label>
+    <permissionSets>cmcSf__Access_Pipeline_Manager</permissionSets>
+    <permissionSets>cmcSf__CMC_SFDX_Admin</permissionSets>
+    <permissionSets>cmcSf__Data_Deploy_DevOps_Admin</permissionSets>
+    <permissionSets>cmcSf__Data_Deploy_DevOps_User</permissionSets>
+    <permissionSets>copadoQuality__CCH_Admin</permissionSets>
+    <permissionSets>copadoQuality__CRT_Admin</permissionSets>
+    <permissionSets>copadoQuality__PMD_Admin</permissionSets>
+    <permissionSets>copado__Access_AQF</permissionSets>
+    <permissionSets>copado__Configure_AQF</permissionSets>
+    <permissionSets>copado__Configure_Automations</permissionSets>
+    <permissionSets>copado__Copado_Functions</permissionSets>
+    <permissionSets>copado__Data_Deploy_Admin</permissionSets>
+    <permissionSets>copado__Teams_Management_Admin</permissionSets>
+    <permissionSets>copado__User_Story_Task_Admin</permissionSets>
+    <permissionSets>copado__Work_Manager_Admin</permissionSets>
+    <permissionSets>force__AncCrmIntegrationUser</permissionSets>
+    <permissionSets>force__AncMarketingIntegrationUser</permissionSets>
+    <permissionSets>force__AncPersonalizationIntegrationUser</permissionSets>
+    <permissionSets>force__AncProvisioningIntegrationUser</permissionSets>
+    <permissionSets>force__CodeBuilderUserPsl</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
