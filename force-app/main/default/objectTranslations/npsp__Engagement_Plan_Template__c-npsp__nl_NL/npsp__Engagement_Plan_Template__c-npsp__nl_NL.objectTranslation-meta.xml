@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value>Betrokkenheidsplansjablonen</value>
     </caseValues>
+    <fieldSets>
+        <label>EP-sjabloon FS beheren</label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
     <gender>Feminine</gender>
     <nameFieldLabel>Sjabloonnaam van Betrokkenheidsplan</nameFieldLabel>
+    <webLinks>
+        <label>Sjabloon beheren</label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
 </CustomObjectTranslation>

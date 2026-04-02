@@ -8,6 +8,38 @@
         <plural>true</plural>
         <value>Households</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Manage_Household_Custom --></label>
+        <name>npo02__Manage_Household_Custom</name>
+    </fieldSets>
+    <layouts>
+        <layout>Household Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Totals --></label>
+            <section>Donation Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Household Information --></label>
+            <section>Household Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Household Name</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Update Household</label>
+        <name>npsp__Update_Household</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Copy_Household_Address_to_Contacts --></label>
+        <name>npo02__Copy_Household_Address_to_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Household_Member --></label>
+        <name>npo02__New_Household_Member</name>
+    </webLinks>
 </CustomObjectTranslation>

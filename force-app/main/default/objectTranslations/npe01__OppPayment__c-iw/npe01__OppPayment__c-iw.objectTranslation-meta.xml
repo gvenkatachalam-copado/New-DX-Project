@@ -20,6 +20,26 @@
         <plural>true</plural>
         <value><!-- הPayment --></value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Payment Wizard FS --></label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
     <gender><!-- Masculine --></gender>
     <nameFieldLabel><!-- Payment Number --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Quick Update --></label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Refund --></label>
+        <name>npsp__Refund</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Schedule_Payments --></label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Writeoff_Payments --></label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -2,6 +2,7 @@
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
     <label>Developer_2025_07_22_00_55_42</label>
+    <mutingPermissionSets>Developer_2025_07_22_00_55_42_Muted</mutingPermissionSets>
     <permissionSets>Developer_2025_07_22_00_55_42_PS</permissionSets>
     <permissionSets>cmcSf__Access_Pipeline_Manager</permissionSets>
     <permissionSets>cmcSf__CMC_SFDX_Admin</permissionSets>

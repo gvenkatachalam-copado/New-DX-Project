@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>リレーション</value>
     </caseValues>
+    <layouts>
+        <layout>Relationship Layout</layout>
+        <sections>
+            <label><!-- Relationship Information --></label>
+            <section>Relationship Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>リレーション番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage>既存のリレーションで取引先責任者を変更する代わりに、このリレーションを削除して 2 つの取引先責任者間の新しいリレーションを作成します。</errorMessage>
+        <name>npe4__Related_Contact_Do_Not_Change</name>
+    </validationRules>
 </CustomObjectTranslation>

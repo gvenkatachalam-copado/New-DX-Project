@@ -8,6 +8,22 @@
         <plural>true</plural>
         <value>Addresses</value>
     </caseValues>
+    <layouts>
+        <layout>Address Layout</layout>
+        <sections>
+            <label><!-- Seasonal Information --></label>
+            <section>Seasonal Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Address ID</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Update Address</label>
+        <name>npsp__Update_Address</name>
+    </quickActions>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Verify Address</label>
+        <name>npsp__Verify_Address</name>
+    </webLinks>
 </CustomObjectTranslation>

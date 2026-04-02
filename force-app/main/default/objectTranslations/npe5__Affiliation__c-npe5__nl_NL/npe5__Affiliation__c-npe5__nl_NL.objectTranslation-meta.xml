@@ -9,5 +9,12 @@
         <value>Connecties</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Affiliation Layout</layout>
+        <sections>
+            <label><!-- Affiliation Information --></label>
+            <section>Affiliation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam van connectie</nameFieldLabel>
 </CustomObjectTranslation>

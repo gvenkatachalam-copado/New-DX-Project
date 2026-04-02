@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>一般会計単位</value>
     </caseValues>
+    <layouts>
+        <layout>General Accounting Unit Layout</layout>
+        <sections>
+            <label>割り当て情報</label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label>割り当て総額</label>
+            <section>Allocation Totals</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>一般会計単位名</nameFieldLabel>
+    <webLinks>
+        <label><!-- Recalculate_Rollups --></label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

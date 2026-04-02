@@ -8,7 +8,15 @@
         <plural>true</plural>
         <value>Affectations UCG</value>
     </caseValues>
+    <fieldSets>
+        <label>Gérer les affectations - Champs supplémentaires</label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
     <gender>Feminine</gender>
     <nameFieldLabel>Nom des Affectations UCG</nameFieldLabel>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Gérer des affectations</label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
 </CustomObjectTranslation>

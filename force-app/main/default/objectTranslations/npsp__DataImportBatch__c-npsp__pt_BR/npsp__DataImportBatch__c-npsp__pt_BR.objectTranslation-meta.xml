@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value>Lotes de importações de dados do NPSP</value>
     </caseValues>
+    <fieldSets>
+        <label>Colunas da guia da Entrada de doações em lote</label>
+        <name>npsp__BatchGiftEntryTabColumns</name>
+    </fieldSets>
     <gender>Masculine</gender>
     <nameFieldLabel>Nome do lote</nameFieldLabel>
+    <webLinks>
+        <label>Processar lote</label>
+        <name>npsp__Process_Batch</name>
+    </webLinks>
 </CustomObjectTranslation>

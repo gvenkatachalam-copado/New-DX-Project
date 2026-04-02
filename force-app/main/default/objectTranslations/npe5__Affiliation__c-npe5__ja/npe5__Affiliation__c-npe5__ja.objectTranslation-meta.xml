@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>アフィリエーション</value>
     </caseValues>
+    <layouts>
+        <layout>Affiliation Layout</layout>
+        <sections>
+            <label><!-- Affiliation Information --></label>
+            <section>Affiliation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>アフィリエーション名</nameFieldLabel>
 </CustomObjectTranslation>

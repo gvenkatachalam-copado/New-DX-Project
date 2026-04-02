@@ -21,5 +21,20 @@
         <value><!-- הAddress --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Address Layout</layout>
+        <sections>
+            <label>פרטים עונתיים</label>
+            <section>Seasonal Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Address ID --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Update Address --></label>
+        <name>npsp__Update_Address</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Verify_Address --></label>
+        <name>npsp__Verify_Address</name>
+    </webLinks>
 </CustomObjectTranslation>

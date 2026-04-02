@@ -9,4 +9,19 @@
         <value><!-- Checklistitems Aan de slag voor NPSP --></value>
     </caseValues>
     <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>GS Checklist Item Layout</layout>
+        <sections>
+            <label>Knoppen</label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label>Info</label>
+            <section>Info</section>
+        </sections>
+        <sections>
+            <label>Koppeling</label>
+            <section>Link</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

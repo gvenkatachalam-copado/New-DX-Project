@@ -9,6 +9,22 @@
         <value>Adresses</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Address Layout</layout>
+        <sections>
+            <label><!-- Seasonal Information --></label>
+            <section>Seasonal Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ID d&apos;adresse</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Mettre à jour une adresse</label>
+        <name>npsp__Update_Address</name>
+    </quickActions>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Vérifier une adresse</label>
+        <name>npsp__Verify_Address</name>
+    </webLinks>
 </CustomObjectTranslation>

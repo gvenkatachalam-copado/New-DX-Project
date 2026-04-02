@@ -10,4 +10,8 @@
     </caseValues>
     <gender>Masculine</gender>
     <nameFieldLabel>Nome do crédito indireto parcial</nameFieldLabel>
+    <webLinks>
+        <label>Gerenciar créditos indiretos</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
 </CustomObjectTranslation>

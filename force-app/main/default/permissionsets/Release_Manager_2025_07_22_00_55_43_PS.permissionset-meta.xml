@@ -26,6 +26,10 @@
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
+        <name>copado__AccessBundlesFeature</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
         <name>copado__Allow_Manual_Changes_in_Job_Engine_Records</name>
     </customPermissions>
     <customPermissions>
@@ -67,6 +71,10 @@
     <customPermissions>
         <enabled>true</enabled>
         <name>copado__Enable_Package_Publish</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__ManagePullRequestsFeature</name>
     </customPermissions>
     <customPermissions>
         <enabled>true</enabled>

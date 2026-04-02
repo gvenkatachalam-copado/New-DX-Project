@@ -9,4 +9,19 @@
         <value><!-- Elementos de listas de comprobación de Empezar a trabajar de NPSP --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>GS Checklist Item Layout</layout>
+        <sections>
+            <label>Botones</label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label>Información</label>
+            <section>Info</section>
+        </sections>
+        <sections>
+            <label>Vínculo</label>
+            <section>Link</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

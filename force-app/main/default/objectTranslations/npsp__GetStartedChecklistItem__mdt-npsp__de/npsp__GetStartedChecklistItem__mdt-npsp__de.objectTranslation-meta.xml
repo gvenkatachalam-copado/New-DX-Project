@@ -41,4 +41,19 @@
         <value>Elementen der NPSP-Erste Schritte-Checkliste</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>GS Checklist Item Layout</layout>
+        <sections>
+            <label><!-- Buttons --></label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label><!-- Info --></label>
+            <section>Info</section>
+        </sections>
+        <sections>
+            <label><!-- Link --></label>
+            <section>Link</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -9,6 +9,13 @@
         <value>Affiliations</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Affiliation Layout</layout>
+        <sections>
+            <label>Information de l&apos;affiliation</label>
+            <section>Affiliation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l’affiliation</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

@@ -8,6 +8,13 @@
         <plural>true</plural>
         <value>Affiliations</value>
     </caseValues>
+    <layouts>
+        <layout>Affiliation Layout</layout>
+        <sections>
+            <label>Affiliation Information</label>
+            <section>Affiliation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Affiliation Name</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

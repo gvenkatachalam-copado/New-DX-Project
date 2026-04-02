@@ -9,5 +9,12 @@
         <value><!-- Groupes de filtres --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Filter Group Layout</layout>
+        <sections>
+            <label>Nouvelle section</label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>

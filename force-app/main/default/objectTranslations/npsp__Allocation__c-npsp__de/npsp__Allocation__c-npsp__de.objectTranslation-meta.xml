@@ -40,6 +40,14 @@
         <plural>true</plural>
         <value>Zuordnungen zur allgemeinen Verrechnungseinheit</value>
     </caseValues>
+    <fieldSets>
+        <label>Zusätzliche Felder zum Verwalten von Zuweisungen</label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
     <gender>Feminine</gender>
     <nameFieldLabel>Name der Verwendungszweck-Zuweisung</nameFieldLabel>
+    <webLinks>
+        <label>Zuweisungen verwalten</label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
 </CustomObjectTranslation>

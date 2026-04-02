@@ -20,6 +20,21 @@
         <plural>true</plural>
         <value><!-- הLevel --></value>
     </caseValues>
+    <fieldSets>
+        <label><!-- LevelEdit --></label>
+        <name>npsp__LevelEdit</name>
+    </fieldSets>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Level Layout</layout>
+        <sections>
+            <label><!-- long text section --></label>
+            <section>long text section</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Level Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>היעד הוא שדה נדרש ברמה זו.  ציין את אובייקט היעד עבור רמה זו.</errorMessage>
+        <name>npsp__Target_Required</name>
+    </validationRules>
 </CustomObjectTranslation>

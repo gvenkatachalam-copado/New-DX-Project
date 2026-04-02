@@ -9,4 +9,15 @@
         <value><!-- Totaliseringen --></value>
     </caseValues>
     <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Rollup Layout</layout>
+        <sections>
+            <label>Nieuwe Sectie</label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label>Details van Totalisering</label>
+            <section>Rollup Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

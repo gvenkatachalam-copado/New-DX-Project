@@ -21,5 +21,16 @@
         <value><!-- הRelationship --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Relationship Layout</layout>
+        <sections>
+            <label><!-- Relationship Information --></label>
+            <section>Relationship Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Relationship Number --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>במקום לשנות את אנשי הקשר בקשר קיים, מחק קשר זה וצור אחד חדש בין אנשי הקשר החדשים</errorMessage>
+        <name>npe4__Related_Contact_Do_Not_Change</name>
+    </validationRules>
 </CustomObjectTranslation>

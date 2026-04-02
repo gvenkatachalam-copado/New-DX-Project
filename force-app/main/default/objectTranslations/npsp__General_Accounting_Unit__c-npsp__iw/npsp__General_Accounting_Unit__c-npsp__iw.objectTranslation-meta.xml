@@ -21,5 +21,20 @@
         <value><!-- הGeneral Accounting Unit --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>General Accounting Unit Layout</layout>
+        <sections>
+            <label><!-- Allocation Information --></label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Allocation Totals --></label>
+            <section>Allocation Totals</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- General Accounting Unit Name --></nameFieldLabel>
+    <webLinks>
+        <label>חשב מחדש סיכומים</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

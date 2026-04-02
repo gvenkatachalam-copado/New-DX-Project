@@ -8,6 +8,21 @@
         <plural>true</plural>
         <value>Niveles</value>
     </caseValues>
+    <fieldSets>
+        <label>LevelEdit</label>
+        <name>npsp__LevelEdit</name>
+    </fieldSets>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Level Layout</layout>
+        <sections>
+            <label><!-- long text section --></label>
+            <section>long text section</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de nivel</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Destino es un campo requerido en Nivel. Especifique el objeto destino para este nivel.</errorMessage>
+        <name>npsp__Target_Required</name>
+    </validationRules>
 </CustomObjectTranslation>

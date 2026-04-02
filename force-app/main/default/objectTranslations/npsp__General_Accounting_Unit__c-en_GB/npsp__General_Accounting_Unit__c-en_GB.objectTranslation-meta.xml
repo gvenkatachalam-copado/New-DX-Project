@@ -8,6 +8,21 @@
         <plural>true</plural>
         <value>General Accounting Units</value>
     </caseValues>
+    <layouts>
+        <layout>General Accounting Unit Layout</layout>
+        <sections>
+            <label>Allocation Information</label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label>Allocation Totals</label>
+            <section>Allocation Totals</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>General Accounting Unit Name</nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Recalculate_Rollups --></label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

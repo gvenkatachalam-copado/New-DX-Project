@@ -40,6 +40,14 @@
         <plural>true</plural>
         <value>Engagementplan-Vorlagen</value>
     </caseValues>
+    <fieldSets>
+        <label>EP-Vorlagenverwaltung-FS</label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
     <gender>Feminine</gender>
     <nameFieldLabel>Engagementplan-Vorlagenname</nameFieldLabel>
+    <webLinks>
+        <label>Vorlage verwalten</label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
 </CustomObjectTranslation>

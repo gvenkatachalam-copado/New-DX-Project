@@ -41,5 +41,20 @@
         <value>Allgemeinen Verrechnungseinheiten</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>General Accounting Unit Layout</layout>
+        <sections>
+            <label><!-- Allocation Information --></label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Allocation Totals --></label>
+            <section>Allocation Totals</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name des Verwendungszwecks</nameFieldLabel>
+    <webLinks>
+        <label>Rollups neu berechnen</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -9,5 +9,20 @@
         <value>Unidades contábeis gerais</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>General Accounting Unit Layout</layout>
+        <sections>
+            <label><!-- Allocation Information --></label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Allocation Totals --></label>
+            <section>Allocation Totals</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da Unidade contábil geral</nameFieldLabel>
+    <webLinks>
+        <label>Recalcular totalizações</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

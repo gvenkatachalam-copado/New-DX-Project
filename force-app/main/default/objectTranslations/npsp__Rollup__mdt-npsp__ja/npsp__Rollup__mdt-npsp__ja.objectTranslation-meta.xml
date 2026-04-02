@@ -4,4 +4,15 @@
         <plural>false</plural>
         <value>積み上げ集計</value>
     </caseValues>
+    <layouts>
+        <layout>Rollup Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Rollup Details --></label>
+            <section>Rollup Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -56,4 +56,19 @@
         <default>false</default>
         <label>Subscription Payment</label>
     </standardValue>
+    <standardValue>
+        <fullName>Cancel</fullName>
+        <default>false</default>
+        <label>Cancel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment Credit</fullName>
+        <default>false</default>
+        <label>Payment Credit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commerce Delivery Service</fullName>
+        <default>false</default>
+        <label>Commerce Delivery Service</label>
+    </standardValue>
 </StandardValueSet>

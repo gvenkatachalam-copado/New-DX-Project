@@ -41,5 +41,64 @@
         <value>NPSP-Datenimporten</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Data Import Layout</layout>
+        <sections>
+            <label><!-- Account1 Information --></label>
+            <section>Account1 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Account2 Information --></label>
+            <section>Account2 Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt1 Informationen</label>
+            <section>Contact1 Information</section>
+        </sections>
+        <sections>
+            <label>Kontakt2 Informationen</label>
+            <section>Contact2 Information</section>
+        </sections>
+        <sections>
+            <label>Spendeninformationen</label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- GAU Allocation Information --></label>
+            <section>GAU Allocation Information</section>
+        </sections>
+        <sections>
+            <label>Privatadresse</label>
+            <section>Home Address</section>
+        </sections>
+        <sections>
+            <label><!-- Household Information --></label>
+            <section>Household Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Contact Role Information --></label>
+            <section>Opportunity Contact Role Information</section>
+        </sections>
+        <sections>
+            <label>Informationen für wiederkehrende Spenden</label>
+            <section>Recurring Donation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Datenimport-ID</nameFieldLabel>
+    <webLinks>
+        <label><!-- Delete_All_Data_Import_Records --></label>
+        <name>npsp__Delete_All_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delete_Imported_Data_Import_Records --></label>
+        <name>npsp__Delete_Imported_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Selected_Data_Import_Records --></label>
+        <name>npsp__Import_Selected_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Data_Import --></label>
+        <name>npsp__Process_Data_Import</name>
+    </webLinks>
 </CustomObjectTranslation>

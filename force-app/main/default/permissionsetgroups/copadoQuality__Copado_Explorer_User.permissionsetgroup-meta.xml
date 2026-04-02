@@ -3,6 +3,7 @@
     <description>Groups permission sets to see, start and check the outcome of a Functional Review.</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Copado Explorer User</label>
+    <permissionSets>CRT_Access</permissionSets>
     <permissionSets>copadoQuality__Credentials_Create</permissionSets>
     <permissionSets>copadoQuality__Environments_View_Only</permissionSets>
     <permissionSets>copadoQuality__Extension_Configuration_View</permissionSets>

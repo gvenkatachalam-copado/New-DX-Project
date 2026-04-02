@@ -20,6 +20,16 @@
                 <default>false</default>
                 <label>Apex Tests</label>
             </value>
+            <value>
+                <fullName>CCH</fullName>
+                <default>false</default>
+                <label>CCH</label>
+            </value>
+            <value>
+                <fullName>PMD</fullName>
+                <default>false</default>
+                <label>PMD</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

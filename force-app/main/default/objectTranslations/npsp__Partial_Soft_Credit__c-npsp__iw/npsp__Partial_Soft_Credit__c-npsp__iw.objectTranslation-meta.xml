@@ -22,4 +22,8 @@
     </caseValues>
     <gender><!-- Masculine --></gender>
     <nameFieldLabel><!-- Partial Soft Credit Name --></nameFieldLabel>
+    <webLinks>
+        <label>נהל קרדיט</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
 </CustomObjectTranslation>

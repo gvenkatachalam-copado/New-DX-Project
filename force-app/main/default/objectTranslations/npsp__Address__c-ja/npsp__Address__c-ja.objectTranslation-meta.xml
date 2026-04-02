@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>住所</value>
     </caseValues>
+    <layouts>
+        <layout>Address Layout</layout>
+        <sections>
+            <label>季節性情報</label>
+            <section>Seasonal Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>住所 ID</nameFieldLabel>
+    <quickActions>
+        <label><!-- Update Address --></label>
+        <name>npsp__Update_Address</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Verify_Address --></label>
+        <name>npsp__Verify_Address</name>
+    </webLinks>
 </CustomObjectTranslation>

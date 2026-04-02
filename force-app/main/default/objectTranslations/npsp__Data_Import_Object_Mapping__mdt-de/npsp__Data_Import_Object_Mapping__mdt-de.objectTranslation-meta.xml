@@ -41,4 +41,11 @@
         <value><!-- Datenimport-Objektzuordnungen --></value>
     </caseValues>
     <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Data Import Object Mapping Layout</layout>
+        <sections>
+            <label>Beziehungsdetails zu benutzerdefiniertem Objekt</label>
+            <section>Custom Object Relationship Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

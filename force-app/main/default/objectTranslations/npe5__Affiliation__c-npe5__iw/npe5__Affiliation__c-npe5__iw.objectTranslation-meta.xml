@@ -21,5 +21,12 @@
         <value><!-- הAffiliation --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Affiliation Layout</layout>
+        <sections>
+            <label><!-- Affiliation Information --></label>
+            <section>Affiliation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Affiliation Name --></nameFieldLabel>
 </CustomObjectTranslation>

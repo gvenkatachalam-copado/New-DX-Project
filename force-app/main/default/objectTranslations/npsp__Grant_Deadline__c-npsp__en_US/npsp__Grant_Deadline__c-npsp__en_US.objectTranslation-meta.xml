@@ -8,5 +8,19 @@
         <plural>true</plural>
         <value>Deliverables</value>
     </caseValues>
+    <layouts>
+        <layout>Deliverable</layout>
+        <sections>
+            <label><!-- Grant Deliverable Requirements --></label>
+            <section>Grant Deliverable Requirements</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Grant Deadline Layout</layout>
+        <sections>
+            <label><!-- Grant Deliverable Requirements --></label>
+            <section>Grant Deliverable Requirements</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

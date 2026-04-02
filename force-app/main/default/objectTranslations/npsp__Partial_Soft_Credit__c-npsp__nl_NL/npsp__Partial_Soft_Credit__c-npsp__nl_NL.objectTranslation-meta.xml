@@ -10,4 +10,8 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Naam van Gedeeltelijke Soft Credits</nameFieldLabel>
+    <webLinks>
+        <label>Soft Credits beheren</label>
+        <name>npsp__Manage_Soft_Credits</name>
+    </webLinks>
 </CustomObjectTranslation>

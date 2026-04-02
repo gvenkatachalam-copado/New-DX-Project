@@ -9,5 +9,20 @@
         <value>GAU&apos;s</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>General Accounting Unit Layout</layout>
+        <sections>
+            <label>Allocatie Informatie</label>
+            <section>Allocation Information</section>
+        </sections>
+        <sections>
+            <label>Allocatie Totalen</label>
+            <section>Allocation Totals</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam GAU</nameFieldLabel>
+    <webLinks>
+        <label><!-- Recalculate_Rollups --></label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

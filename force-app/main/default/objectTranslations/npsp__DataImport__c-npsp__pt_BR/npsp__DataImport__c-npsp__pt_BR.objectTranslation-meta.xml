@@ -9,5 +9,64 @@
         <value>Importações de dados do NPSP</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Data Import Layout</layout>
+        <sections>
+            <label><!-- Account1 Information --></label>
+            <section>Account1 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Account2 Information --></label>
+            <section>Account2 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact1 Information --></label>
+            <section>Contact1 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact2 Information --></label>
+            <section>Contact2 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- GAU Allocation Information --></label>
+            <section>GAU Allocation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Home Address --></label>
+            <section>Home Address</section>
+        </sections>
+        <sections>
+            <label><!-- Household Information --></label>
+            <section>Household Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Contact Role Information --></label>
+            <section>Opportunity Contact Role Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recurring Donation Information --></label>
+            <section>Recurring Donation Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ID de importação de dados</nameFieldLabel>
+    <webLinks>
+        <label>Excluir todos os registros de importação de dados</label>
+        <name>npsp__Delete_All_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label>Excluir registros de importação de dados importados</label>
+        <name>npsp__Delete_Imported_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label>Importar registros de importação de dados selecionados</label>
+        <name>npsp__Import_Selected_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label>Importar todos os registros de importação de dados</label>
+        <name>npsp__Process_Data_Import</name>
+    </webLinks>
 </CustomObjectTranslation>

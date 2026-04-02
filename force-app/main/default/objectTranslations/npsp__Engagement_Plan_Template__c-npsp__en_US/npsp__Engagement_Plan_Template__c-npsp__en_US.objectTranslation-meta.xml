@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>Engagement Plan Templates</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Manage EP Template FS --></label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
     <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Manage_Template --></label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
 </CustomObjectTranslation>

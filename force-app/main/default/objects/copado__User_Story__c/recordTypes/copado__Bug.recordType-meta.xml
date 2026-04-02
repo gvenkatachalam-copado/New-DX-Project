@@ -444,6 +444,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Draft</fullName>
             <default>true</default>
         </values>
@@ -457,6 +461,10 @@
         </values>
         <values>
             <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Do</fullName>
             <default>false</default>
         </values>
     </picklistValues>

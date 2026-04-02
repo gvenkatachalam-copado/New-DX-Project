@@ -4,4 +4,19 @@
         <plural>false</plural>
         <value>NPSP 使用開始チェックリスト項目</value>
     </caseValues>
+    <layouts>
+        <layout>GS Checklist Item Layout</layout>
+        <sections>
+            <label><!-- Buttons --></label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label><!-- Info --></label>
+            <section>Info</section>
+        </sections>
+        <sections>
+            <label><!-- Link --></label>
+            <section>Link</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

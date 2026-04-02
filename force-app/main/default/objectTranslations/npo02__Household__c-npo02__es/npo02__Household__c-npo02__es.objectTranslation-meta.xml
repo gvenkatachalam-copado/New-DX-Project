@@ -8,6 +8,37 @@
         <plural>true</plural>
         <value>Hogares</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Manage_Household_Custom --></label>
+        <name>npo02__Manage_Household_Custom</name>
+    </fieldSets>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Household Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Totals --></label>
+            <section>Donation Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Household Information --></label>
+            <section>Household Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de Hogar</nameFieldLabel>
+    <quickActions>
+        <label><!-- Update Household --></label>
+        <name>npsp__Update_Household</name>
+    </quickActions>
+    <webLinks>
+        <label>Copiar dirección del hogar en contactos</label>
+        <name>npo02__Copy_Household_Address_to_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label>Nuevo Miembro de la Familia</label>
+        <name>npo02__New_Household_Member</name>
+    </webLinks>
 </CustomObjectTranslation>

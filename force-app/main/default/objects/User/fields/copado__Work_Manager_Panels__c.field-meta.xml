@@ -6,6 +6,7 @@
     <label>Work Manager Panels</label>
     <length>131072</length>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>LongTextArea</type>
     <visibleLines>2</visibleLines>
 </CustomField>

@@ -9,5 +9,20 @@
         <value>Adressen</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Address Layout</layout>
+        <sections>
+            <label>Seizoensinformatie</label>
+            <section>Seasonal Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Adres-ID</nameFieldLabel>
+    <quickActions>
+        <label><!-- Update Address --></label>
+        <name>npsp__Update_Address</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Verify_Address --></label>
+        <name>npsp__Verify_Address</name>
+    </webLinks>
 </CustomObjectTranslation>

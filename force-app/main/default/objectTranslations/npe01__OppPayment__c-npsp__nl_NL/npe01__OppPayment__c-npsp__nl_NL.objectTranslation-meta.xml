@@ -8,6 +8,28 @@
         <plural>true</plural>
         <value>Betalingen</value>
     </caseValues>
+    <fieldSets>
+        <label>Betalingswizard FS</label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
     <gender>Feminine</gender>
     <nameFieldLabel>Betalingsnummer</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Snelle Update</label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Terugbetalen</label>
+        <name>npsp__Refund</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Schedule_Payments --></label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Writeoff_Payments --></label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
 </CustomObjectTranslation>

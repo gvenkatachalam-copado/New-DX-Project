@@ -20,6 +20,7 @@
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
+    <enableIncrementalUpsert>false</enableIncrementalUpsert>
     <enableInsights>false</enableInsights>
     <enableLightningReportBuilder>true</enableLightningReportBuilder>
     <enableLotusNotesImages>false</enableLotusNotesImages>
@@ -31,10 +32,14 @@
     <enableOrgCanViewThumbnailForOA>true</enableOrgCanViewThumbnailForOA>
     <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
+    <enableOrgWideEmailNotification>false</enableOrgWideEmailNotification>
+    <enablePupparazziForNotifications>false</enablePupparazziForNotifications>
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
     <enableReportCdnPref>true</enableReportCdnPref>
+    <enableReportCustomTextExportPref>false</enableReportCustomTextExportPref>
+    <enableReportEscapeCharsPref>false</enableReportEscapeCharsPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
@@ -55,6 +60,7 @@
     <enableWaveReplication>false</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
+    <enableWriteToDataCloud>false</enableWriteToDataCloud>
     <isDiscoveryOptimizationEnabled>false</isDiscoveryOptimizationEnabled>
     <isHighVolumePushbackEnabled>false</isHighVolumePushbackEnabled>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>

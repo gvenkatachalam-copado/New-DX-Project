@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value><!-- Filter Groups --></value>
     </caseValues>
+    <layouts>
+        <layout>Filter Group Layout</layout>
+        <sections>
+            <label>New Section</label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>

@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value>Modelos do plano de engajamento</value>
     </caseValues>
+    <fieldSets>
+        <label>Gerenciar FS do modelo de PI</label>
+        <name>npsp__ManageEPTemplateFS</name>
+    </fieldSets>
     <gender>Masculine</gender>
     <nameFieldLabel>Nome do modelo de plano de interação</nameFieldLabel>
+    <webLinks>
+        <label>Gerenciar modelo</label>
+        <name>npsp__Manage_Template</name>
+    </webLinks>
 </CustomObjectTranslation>

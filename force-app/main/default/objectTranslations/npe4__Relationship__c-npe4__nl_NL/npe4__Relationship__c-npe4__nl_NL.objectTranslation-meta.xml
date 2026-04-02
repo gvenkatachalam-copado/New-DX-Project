@@ -9,5 +9,16 @@
         <value>Relaties</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Relationship Layout</layout>
+        <sections>
+            <label><!-- Relationship Information --></label>
+            <section>Relationship Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Relatienummer</nameFieldLabel>
+    <validationRules>
+        <errorMessage>In plaats van ce Contactpersonen te wijzigen in een bestaande relatie, verwijdert u deze relatie en maakt u een nieuwe relatie aan tussen de nieuwe contactpersonen.</errorMessage>
+        <name>npe4__Related_Contact_Do_Not_Change</name>
+    </validationRules>
 </CustomObjectTranslation>

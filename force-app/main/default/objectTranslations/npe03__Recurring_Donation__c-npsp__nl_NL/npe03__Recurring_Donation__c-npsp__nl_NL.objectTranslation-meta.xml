@@ -8,6 +8,65 @@
         <plural>true</plural>
         <value>Terugkerende donaties</value>
     </caseValues>
+    <fieldSets>
+        <label>Aangepaste velden voor invoerformulier voor terugkerende donaties</label>
+        <name>npsp__RD2_Entry_Form_Custom_Fields</name>
+    </fieldSets>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Enhanced Recurring Donations Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Statistics --></label>
+            <section>Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam van terugkerende donatie</nameFieldLabel>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>npe03__New_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quick Update --></label>
+        <name>npe03__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Terugkerende donatie sluiten</label>
+        <name>npsp__Close_Recurring_Donation</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Nieuwe Opportunity</label>
+        <name>npsp__New_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Onderbreken</label>
+        <name>npsp__Pause</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Snelle Update</label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- New_Recurring_Acct_Donation --></label>
+        <name>npe03__New_Recurring_Acct_Donation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Recurring_Donation_Pledge_Account --></label>
+        <name>npe03__New_Recurring_Donation_Pledge_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Refresh_Opportunities --></label>
+        <name>npe03__Refresh_Opportunities</name>
+    </webLinks>
+    <webLinks>
+        <label>Totaliseringen opnieuw berekenen</label>
+        <name>npsp__Recalculate_Rollups</name>
+    </webLinks>
 </CustomObjectTranslation>

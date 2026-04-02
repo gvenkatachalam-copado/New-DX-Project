@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value>Toewijzingen</value>
     </caseValues>
+    <fieldSets>
+        <label>Aanvullende velden voor beheren van toewijzingen</label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
     <gender>Feminine</gender>
     <nameFieldLabel>Naam GAU-Toewijzing</nameFieldLabel>
+    <webLinks>
+        <label>Toewijzingen beheren</label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
 </CustomObjectTranslation>

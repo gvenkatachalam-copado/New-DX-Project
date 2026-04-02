@@ -9,5 +9,19 @@
         <value>Entregas</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Deliverable</layout>
+        <sections>
+            <label><!-- Grant Deliverable Requirements --></label>
+            <section>Grant Deliverable Requirements</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Grant Deadline Layout</layout>
+        <sections>
+            <label>Requisitos de objetivos da bolsa</label>
+            <section>Grant Deliverable Requirements</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do objetivo</nameFieldLabel>
 </CustomObjectTranslation>

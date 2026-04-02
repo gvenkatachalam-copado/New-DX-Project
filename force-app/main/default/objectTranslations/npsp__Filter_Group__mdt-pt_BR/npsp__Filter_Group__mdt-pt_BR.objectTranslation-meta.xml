@@ -9,4 +9,11 @@
         <value><!-- Grupos de filtros --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Filter Group Layout</layout>
+        <sections>
+            <label>Nova seção</label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

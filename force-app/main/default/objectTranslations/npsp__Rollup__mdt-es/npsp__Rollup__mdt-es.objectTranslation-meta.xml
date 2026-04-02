@@ -9,4 +9,15 @@
         <value><!-- Totalizaciones --></value>
     </caseValues>
     <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Rollup Layout</layout>
+        <sections>
+            <label>Nueva sección</label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label>Detalles de totalización</label>
+            <section>Rollup Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

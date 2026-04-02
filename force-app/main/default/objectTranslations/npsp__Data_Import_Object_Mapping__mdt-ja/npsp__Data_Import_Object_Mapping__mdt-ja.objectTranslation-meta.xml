@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- データインポートオブジェクトの対応付け --></value>
     </caseValues>
+    <layouts>
+        <layout>Data Import Object Mapping Layout</layout>
+        <sections>
+            <label>カスタムオブジェクトリレーションの詳細</label>
+            <section>Custom Object Relationship Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

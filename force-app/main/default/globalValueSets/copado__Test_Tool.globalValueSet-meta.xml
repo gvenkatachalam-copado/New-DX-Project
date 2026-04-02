@@ -10,6 +10,11 @@
         <default>false</default>
         <label>Apex Tests</label>
     </customValue>
+    <customValue>
+        <fullName>PMD</fullName>
+        <default>false</default>
+        <label>PMD</label>
+    </customValue>
     <masterLabel>Copado Test Tool</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

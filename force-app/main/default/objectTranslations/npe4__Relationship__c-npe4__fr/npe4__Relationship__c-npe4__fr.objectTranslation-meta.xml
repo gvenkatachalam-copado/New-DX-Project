@@ -9,6 +9,17 @@
         <value>Relations</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Relationship Layout</layout>
+        <sections>
+            <label><!-- Relationship Information --></label>
+            <section>Relationship Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numéro de relation</nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Au lieu de modifier les contacts d’une relation existante, supprimez cette relation et créez-en une nouvelle entre les nouveaux contacts</errorMessage>
+        <name>npe4__Related_Contact_Do_Not_Change</name>
+    </validationRules>
 </CustomObjectTranslation>

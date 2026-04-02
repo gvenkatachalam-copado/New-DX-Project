@@ -4,5 +4,36 @@
         <plural>false</plural>
         <value>世帯</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Manage_Household_Custom --></label>
+        <name>npo02__Manage_Household_Custom</name>
+    </fieldSets>
+    <layouts>
+        <layout>Household Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Totals --></label>
+            <section>Donation Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Household Information --></label>
+            <section>Household Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>世帯名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Update Household --></label>
+        <name>npsp__Update_Household</name>
+    </quickActions>
+    <webLinks>
+        <label>取引先責任者に世帯住所をコピー</label>
+        <name>npo02__Copy_Household_Address_to_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Household_Member --></label>
+        <name>npo02__New_Household_Member</name>
+    </webLinks>
 </CustomObjectTranslation>

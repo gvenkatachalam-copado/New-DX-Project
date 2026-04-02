@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Hauptansprechpartner für diese Opportunity Die Hauptansprechpartnerrolle wird ständig mit diesem Feld synchronisiert. Für Einzelpersonenspenden bezeichnet dies die Zuschreibung für diese Opportunity.</help>
+    <label><!-- Primary Contact --></label>
+    <name>npsp__Primary_Contact__c</name>
+    <relationshipLabel><!-- Opportunities --></relationshipLabel>
+</CustomFieldTranslation>

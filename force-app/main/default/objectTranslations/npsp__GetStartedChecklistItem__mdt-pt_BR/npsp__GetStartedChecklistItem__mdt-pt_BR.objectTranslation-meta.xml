@@ -9,4 +9,19 @@
         <value><!-- Itens da lista de verificação da Introdução ao NPSP --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>GS Checklist Item Layout</layout>
+        <sections>
+            <label>Botões</label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label>Informações</label>
+            <section>Info</section>
+        </sections>
+        <sections>
+            <label>Link</label>
+            <section>Link</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

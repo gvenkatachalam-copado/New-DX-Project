@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- 絞り込みグループ --></value>
     </caseValues>
+    <layouts>
+        <layout>Filter Group Layout</layout>
+        <sections>
+            <label>新規セクション</label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

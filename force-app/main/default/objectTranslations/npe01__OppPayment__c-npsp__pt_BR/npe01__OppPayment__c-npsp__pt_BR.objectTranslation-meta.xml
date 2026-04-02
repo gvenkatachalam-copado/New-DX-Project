@@ -8,6 +8,28 @@
         <plural>true</plural>
         <value>Pagamentos</value>
     </caseValues>
+    <fieldSets>
+        <label>Assistente de pagamento FS</label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
     <gender>Masculine</gender>
     <nameFieldLabel>Número do pagamento</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Atualização rápida</label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Reembolso</label>
+        <name>npsp__Refund</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Schedule_Payments --></label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Writeoff_Payments --></label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
 </CustomObjectTranslation>

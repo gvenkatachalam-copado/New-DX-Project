@@ -8,6 +8,26 @@
         <plural>true</plural>
         <value>Pagamentos</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Payment Wizard FS --></label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
     <gender>Masculine</gender>
     <nameFieldLabel>Número do pagamento</nameFieldLabel>
+    <quickActions>
+        <label><!-- Quick Update --></label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Refund --></label>
+        <name>npsp__Refund</name>
+    </quickActions>
+    <webLinks>
+        <label>Agendar pagamentos</label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label>Abater pagamentos</label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -4,5 +4,27 @@
         <plural>false</plural>
         <value>支払</value>
     </caseValues>
+    <fieldSets>
+        <label>支払ウィザード FS</label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
     <nameFieldLabel>支払番号</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>クイック更新</label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>返金</label>
+        <name>npsp__Refund</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Schedule_Payments --></label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Writeoff_Payments --></label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
 </CustomObjectTranslation>

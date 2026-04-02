@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value><!-- Rollups --></value>
     </caseValues>
+    <layouts>
+        <layout>Rollup Layout</layout>
+        <sections>
+            <label>New Section</label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label>Rollup Details</label>
+            <section>Rollup Details</section>
+        </sections>
+    </layouts>
     <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>

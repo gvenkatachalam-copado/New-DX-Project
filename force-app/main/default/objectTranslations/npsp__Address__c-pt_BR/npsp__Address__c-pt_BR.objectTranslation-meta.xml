@@ -9,5 +9,20 @@
         <value>Endereços</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Address Layout</layout>
+        <sections>
+            <label>Informações sazonais</label>
+            <section>Seasonal Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ID do endereço</nameFieldLabel>
+    <quickActions>
+        <label><!-- Update Address --></label>
+        <name>npsp__Update_Address</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Verify_Address --></label>
+        <name>npsp__Verify_Address</name>
+    </webLinks>
 </CustomObjectTranslation>

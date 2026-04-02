@@ -41,5 +41,16 @@
         <value>Beziehungen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Relationship Layout</layout>
+        <sections>
+            <label>Beziehungsinformationen</label>
+            <section>Relationship Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Beziehungsnummer</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Rather than change the contacts in an existing relationship, delete this relationship and create a new on between the new contacts --></errorMessage>
+        <name>npe4__Related_Contact_Do_Not_Change</name>
+    </validationRules>
 </CustomObjectTranslation>

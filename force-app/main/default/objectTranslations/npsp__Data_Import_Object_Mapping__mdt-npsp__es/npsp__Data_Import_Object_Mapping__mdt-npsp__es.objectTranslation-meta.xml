@@ -9,4 +9,11 @@
         <value>Asignaciones de objetos de importaciones de datos</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Data Import Object Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Object Relationship Details --></label>
+            <section>Custom Object Relationship Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
