@@ -260,5 +260,6 @@ private class AccountCreationServiceTest {
         insert testUser;
         
         return testUser;
+        //Apex code coverage on the user story is becoming null
     }
 }

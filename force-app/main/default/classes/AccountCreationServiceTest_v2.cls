@@ -234,5 +234,6 @@ private class AccountCreationServiceTest_v2 {
         System.assertEquals(2500000, wrapper.annualRevenue, 'Annual revenue should match');
         System.assertEquals(null, wrapper.phone, 'Phone should be null');
         System.assertEquals(null, wrapper.billingCity, 'Billing city should be null');
+        //Apex code coverage on the user story is becoming null
     }
 }
