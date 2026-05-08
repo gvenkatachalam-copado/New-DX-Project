@@ -1,0 +1,97 @@
+{
+  "testConfig": {
+    "version": "1.0",
+    "environment": "sandbox",
+    "createdDate": "2026-05-07",
+    "description": "Static resource test data for sandbox testing"
+  },
+  "accounts": [
+    {
+      "id": "ACC-001",
+      "name": "Test Account Alpha",
+      "industry": "Technology",
+      "annualRevenue": 500000,
+      "phone": "415-555-0101",
+      "website": "https://alpha.example.com",
+      "active": true
+    },
+    {
+      "id": "ACC-002",
+      "name": "Test Account Beta",
+      "industry": "Finance",
+      "annualRevenue": 1200000,
+      "phone": "415-555-0202",
+      "website": "https://beta.example.com",
+      "active": true
+    },
+    {
+      "id": "ACC-003",
+      "name": "Test Account Gamma",
+      "industry": "Healthcare",
+      "annualRevenue": 750000,
+      "phone": "415-555-0303",
+      "website": "https://gamma.example.com",
+      "active": false
+    }
+  ],
+  "contacts": [
+    {
+      "id": "CON-001",
+      "accountId": "ACC-001",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "jane.doe@alpha.example.com",
+      "title": "VP of Engineering",
+      "phone": "415-555-1001"
+    },
+    {
+      "id": "CON-002",
+      "accountId": "ACC-002",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@beta.example.com",
+      "title": "CFO",
+      "phone": "415-555-1002"
+    },
+    {
+      "id": "CON-003",
+      "accountId": "ACC-003",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@gamma.example.com",
+      "title": "Director of Operations",
+      "phone": "415-555-1003"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "OPP-001",
+      "accountId": "ACC-001",
+      "name": "Alpha - Q2 Deal",
+      "stage": "Prospecting",
+      "amount": 50000,
+      "closeDate": "2026-06-30",
+      "probability": 20
+    },
+    {
+      "id": "OPP-002",
+      "accountId": "ACC-002",
+      "name": "Beta - Enterprise License",
+      "stage": "Negotiation/Review",
+      "amount": 200000,
+      "closeDate": "2026-07-15",
+      "probability": 75
+    }
+  ],
+  "products": [
+    { "id": "PRD-001", "name": "Basic Plan",    "price": 99.99,  "currency": "USD" },
+    { "id": "PRD-002", "name": "Pro Plan",      "price": 299.99, "currency": "USD" },
+    { "id": "PRD-003", "name": "Enterprise Plan","price": 999.99, "currency": "USD" }
+  ],
+  "featureFlags": {
+    "enableNewUI": true,
+    "enableBetaFeature": false,
+    "maxRetries": 3,
+    "timeoutSeconds": 30
+  }
+}
