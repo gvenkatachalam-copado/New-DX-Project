@@ -81,6 +81,15 @@
       "amount": 200000,
       "closeDate": "2026-07-15",
       "probability": 75
+    },
+    {
+      "id": "OPP-003",
+      "accountId": "ACC-003",
+      "name": "Beta - Enterprise License - test1",
+      "stage": "Negotiation/Review/Test",
+      "amount": 300000,
+      "closeDate": "2026-07-15",
+      "probability": 85
     }
   ],
   "products": [
