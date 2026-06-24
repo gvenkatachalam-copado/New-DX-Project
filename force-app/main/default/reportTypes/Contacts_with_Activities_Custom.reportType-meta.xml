@@ -933,6 +933,11 @@
             <field>npsp__Engagement_Plan__c</field>
             <table>Contact.Activities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CM_Financial_Account_c__c</field>
+            <table>Contact.Activities</table>
+        </columns>
         <masterLabel>Activities</masterLabel>
     </sections>
 </ReportType>
