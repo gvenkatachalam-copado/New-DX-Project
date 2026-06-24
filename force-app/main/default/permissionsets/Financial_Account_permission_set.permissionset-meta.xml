@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event.CM_Financial_Account_c__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.CM_Financial_Account_c__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <hasActivationRequired>false</hasActivationRequired>
     <label>Financial Account permission set</label>
+    <hasActivationRequired>false</hasActivationRequired>
     <license>Salesforce</license>
 </PermissionSet>
