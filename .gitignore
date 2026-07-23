@@ -74,3 +74,4 @@ $RECYCLE.BIN/
 #**/installedPackages/**
 #**/dashboards/**
 #**/reports/**
+#**/fields/*__*.*
