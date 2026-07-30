@@ -261,5 +261,6 @@ private class AccountCreationServiceTest {
         
         return testUser;
         //Apex code coverage on the user story is becoming null
+        //Test class edit for the quality gate rule after commit testing for AXA case issue
     }
 }
