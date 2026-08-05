@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sorted>false</sorted>
+    <sorted>true</sorted>
     <standardValue>
-        <fullName>Web</fullName>
+        <fullName>Other</fullName>
         <default>false</default>
-        <label>Web</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Phone Inquiry</fullName>
-        <default>false</default>
-        <label>Phone Inquiry</label>
+        <label>Other</label>
     </standardValue>
     <standardValue>
         <fullName>Partner Referral</fullName>
@@ -17,14 +12,24 @@
         <label>Partner Referral</label>
     </standardValue>
     <standardValue>
+        <fullName>Phone Inquiry</fullName>
+        <default>false</default>
+        <label>Phone Inquiry</label>
+    </standardValue>
+    <standardValue>
         <fullName>Purchased List</fullName>
         <default>false</default>
         <label>Purchased List</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
+        <fullName>Test Aberdeen Case</fullName>
         <default>false</default>
-        <label>Other</label>
+        <label>Test Aberdeen Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
     </standardValue>
     <standardValue>
         <fullName>Test Aberdeen Case</fullName>
