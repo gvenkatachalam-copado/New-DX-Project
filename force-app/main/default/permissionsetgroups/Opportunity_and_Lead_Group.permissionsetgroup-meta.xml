@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Opportunity and Lead Group</label>
+    <mutingPermissionSets>Opportunity_and_Lead_Group_Muted</mutingPermissionSets>
+    <permissionSets>PSG_Test1</permissionSets>
+    <permissionSets>PSG_Test2</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
