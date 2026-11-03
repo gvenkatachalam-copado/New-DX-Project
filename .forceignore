@@ -30,7 +30,7 @@ package.xml
 # Managed package Flows are wholly protected and not versionable
 **/flows/*__*.*
 # Managed package Permission Sets are wholly protected and not versionable
-**/permissionsets/*__*.*
+**/permissionsets/__.*
 # additional metadata types
 **/flowDefinitions/**
 # **/staticresources/**
