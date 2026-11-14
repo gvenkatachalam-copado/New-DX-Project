@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AiAgentDefinitionVersion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
+    <billingMode>ActionBased</billingMode>
+    <citationsEnabled>false</citationsEnabled>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The agent instructions</description>
+        <developerName>AgentScriptInternal_agent_instructions</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Agent Instructions</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The next topic to be visited</description>
+        <developerName>AgentScriptInternal_next_topic</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Next Topic</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <copilotPrimaryLanguage>en_US</copilotPrimaryLanguage>
+    <copilotSecondaryLanguages>en_GB</copilotSecondaryLanguages>
+    <genAiPlannerName>On_boarding_Agent_v2</genAiPlannerName>
+    <isScriptCompatibleAgent>true</isScriptCompatibleAgent>
+    <knowledgeActionEnabled>false</knowledgeActionEnabled>
+    <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
+    <planner>
+        <fullName>On_boarding_Agent_v2</fullName>
+        <agentGraphRef>20Zaj00000JhN6T</agentGraphRef>
+        <agentScript>20Zaj00000JhN1d</agentScript>
+        <description>Help employees get up to speed in Slack when new to the company or starting a new role. Easily find internal points of contact and subject matter experts, and get answers on company policy details.</description>
+        <localTopicLinks>
+            <genAiPluginName>FindAnExpertInSlack</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>GeneralFAQ</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>agent_router</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>ambiguous_question</genAiPluginName>
+        </localTopicLinks>
+        <localTopicLinks>
+            <genAiPluginName>off_topic</genAiPluginName>
+        </localTopicLinks>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Allows agent to search Slack to find Slack users with knowledge about the requested topic. Agent will identify these Slack users and can send an introductory direct message to them.</description>
+            <genAiPluginInstructions>
+                <description>You are an AI Agent.</description>
+                <developerName>instruction0_179aj000005tvys</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179aj000005tvys</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localActionLinks>
+                <functionName>GetSlackUser</functionName>
+            </localActionLinks>
+            <localActionLinks>
+                <functionName>SendSlackDirectMessage</functionName>
+            </localActionLinks>
+            <localActionLinks>
+                <functionName>SearchSlack</functionName>
+            </localActionLinks>
+            <localActions>
+                <description>Given a Salesforce user ID, looks up the corresponding Slack user ID.</description>
+                <invocationTarget>slackAgentGetUser</invocationTarget>
+                <invocationTargetType>standardInvocableAction</invocationTargetType>
+                <isConfirmationRequired>false</isConfirmationRequired>
+                <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+                <localDeveloperName>GetSlackUser</localDeveloperName>
+                <masterLabel>Look Up a Slack User</masterLabel>
+                <progressIndicatorMessage>Looking Up a Slack user...</progressIndicatorMessage>
+                <source>Slack__GetSlackUser</source>
+            </localActions>
+            <localActions>
+                <description>Performs search on Slack
+Search query input accepts the following forms:
+ - keywords (e.g. &apos;notes&apos;)
+ - phrases (e.g. &apos;meeting notes&apos;)
+ - questions (e.g. &apos;Where are the meeting notes for the sync meeting yesterday?&apos;)
+When appropriate, (e.g. The user asked a specific question), use the &apos;question&apos; option for the query input by passing the original raw question from the user.
+Returns three types of objects:
+ * &quot;messages&quot;: Slack messages found in Slack channels and are accessible to the acting user
+ * &quot;files&quot;: Files found in Slack of all types that are accessible to the acting user
+ * &quot;enterprise&quot;: Search result objects from various third party systems that are connected and authenticated by the acting user. Each enterprise object returned will include a &apos;lookup_function&apos; object which will provide details of what third party system and instance the data was retrieved from with some contextual information about the data. Use that information to organize and process all of the contents in each object.
+ All three object types should be used to provide the user with a comprehensive summary by evaluating and considering the context of each object to best answer the user&apos;s query.
+
+Clarifications and Refinements: If the query is vague, ask clarifying questions. If search results are insufficient or outdated, suggest next steps.
+Do not use any data or information outside of Slack&apos;s knowledge base. The agent should only retrieve and provide information that is available within the Slack workspace and should not pull from external sources
+
+Formatting Search Results:
+ * A string like &lt;@U123456789&gt; or &lt;@W123456789&gt; represents a User mention in Slack. You can extract a Slack User ID from a mention by removing the &lt;@ and &gt; characters. For example, the User ID in &lt;@U123456789&gt; is U123456789.
+ * A string like &lt;#C123456789&gt; or &lt;#D123456789&gt; represents a Channel mention in Slack. You can extract a Slack Channel ID from a mention by removing the &lt;# and &gt; characters. For example, the Channel ID in &lt;#C123456789&gt; is C123456789.
+ * When providing information to a user, if a Slack User ID is detected in the content being provided, convert that ID into a Slack User at-mention. For example if there is a reference to a user in a string like &apos;U123456789&apos; or &apos;W123456789&apos;, wrap that string into a string surrounded with  &apos;&lt;@&apos; and  &apos;&gt;&apos;, for instance: &lt;@U123456789&gt;.
+ * When providing information to a user, if a Slack Channel ID is detected in the content being provided, convert that ID into a Slack Channel mention. For example if there is a reference to a channel in a string like &apos;C123456789&apos; or &apos;D123456789&apos;, wrap that string into a string surrounded with  &apos;&lt;#&apos; and  &apos;&gt;&apos;, for instance: &lt;#C123456789&gt;.
+
+Processing Search Results:
+ * Retrieve and analyze search results.
+ * Summarize relevant responses clearly and concisely.
+ * If multiple relevant messages exist, synthesize the information into a coherent answer.
+ * If no useful results are found, acknowledge the lack of results and suggest rephrasing the query or asking in relevant Slack channels.
+ * Do not list the individual messages or their content. Instead, identify recurring themes, keywords, or subjects.
+ Example:
+   * User Prompt: &apos;Find messages about project deadlines.&apos;;
+   * Response: &apos;The messages discuss topics such as project timelines, task assignments, and upcoming deliverables.&apos;
+
+General Questions: For general questions, provide summaries as usual. Process the messages.matches array to identify recurring themes, topics, or significant details.
+
+Error or No Data Scenarios:
+ * If the search query returns no matching messages, respond appropriately: &apos;No messages were found matching your search criteria. Please refine your query and try again.&apos;</description>
+                <invocationTarget>slackAgentSearch</invocationTarget>
+                <invocationTargetType>standardInvocableAction</invocationTargetType>
+                <isConfirmationRequired>false</isConfirmationRequired>
+                <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+                <localDeveloperName>SearchSlack</localDeveloperName>
+                <masterLabel>Search Slack</masterLabel>
+                <progressIndicatorMessage>Searching Slack...</progressIndicatorMessage>
+                <source>Slack__SearchSlack</source>
+            </localActions>
+            <localActions>
+                <description>Given plain text or markdown text, send a direct message (DM) in Slack with the recipient and sender users in the DM channel.
+You can add sections, include links, references, and any other information you deem relevant.
+Provide the message url to the user along with a friendly message.
+Upon successful completion, provide the user a friendly confirmation with a link to the message (in markdown).</description>
+                <invocationTarget>slackAgentSendDirectMessage</invocationTarget>
+                <invocationTargetType>standardInvocableAction</invocationTargetType>
+                <isConfirmationRequired>true</isConfirmationRequired>
+                <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+                <localDeveloperName>SendSlackDirectMessage</localDeveloperName>
+                <masterLabel>Send a Slack Direct Message</masterLabel>
+                <progressIndicatorMessage>Sending Slack direct message...</progressIndicatorMessage>
+                <source>Slack__SendSlackDirectMessage</source>
+            </localActions>
+            <localDeveloperName>FindAnExpertInSlack</localDeveloperName>
+            <masterLabel>Find An Expert In Slack</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>This subagent is for helping answer customer&apos;s questions by searching through the knowledge articles and providing information from those articles. The questions can be about the company and its products, policies or business procedures</description>
+            <genAiPluginInstructions>
+                <description>You are an AI Agent.</description>
+                <developerName>instruction0_179aj000005tvyv</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179aj000005tvyv</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localActionLinks>
+                <functionName>AnswerQuestionsWithKnowledge</functionName>
+            </localActionLinks>
+            <localActions>
+                <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: &apos;What is your return policy?&apos; &apos;How do I fix an issue?&apos; or &apos;What features does a product have?&apos;</description>
+                <invocationTarget>streamKnowledgeSearch</invocationTarget>
+                <invocationTargetType>standardInvocableAction</invocationTargetType>
+                <isConfirmationRequired>false</isConfirmationRequired>
+                <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+                <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+                <masterLabel>Answer Questions with Knowledge</masterLabel>
+                <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+                <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+            </localActions>
+            <localDeveloperName>GeneralFAQ</localDeveloperName>
+            <masterLabel>General FAQ</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Welcome the user and determine the appropriate subagent based on user input</description>
+            <genAiPluginInstructions>
+                <description>You are an AI Agent.</description>
+                <developerName>instruction0_179aj000005tvyr</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179aj000005tvyr</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localDeveloperName>agent_router</localDeveloperName>
+            <masterLabel>Agent Router</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Redirect conversation to relevant subagents when user request is too ambiguous</description>
+            <genAiPluginInstructions>
+                <description>You are an AI Agent.</description>
+                <developerName>instruction0_179aj000005tvyt</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179aj000005tvyt</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localDeveloperName>ambiguous_question</localDeveloperName>
+            <masterLabel>Ambiguous Question</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <localTopics>
+            <canEscalate>false</canEscalate>
+            <description>Redirect conversation to relevant subagents when user request goes off-topic</description>
+            <genAiPluginInstructions>
+                <description>You are an AI Agent.</description>
+                <developerName>instruction0_179aj000005tvyu</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction0_179aj000005tvyu</masterLabel>
+                <sortOrder>1</sortOrder>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <localActionLinks>
+                <functionName>AddCaseComment</functionName>
+            </localActionLinks>
+            <localActions>
+                <description>Let a customer add a comment to an existing case.</description>
+                <invocationTarget>SvcCopilotTmpl__AddCaseComment</invocationTarget>
+                <invocationTargetType>flow</invocationTargetType>
+                <isConfirmationRequired>true</isConfirmationRequired>
+                <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+                <localDeveloperName>AddCaseComment</localDeveloperName>
+                <masterLabel>Add Case Comment</masterLabel>
+                <source>SvcCopilotTmpl__AddCaseComment</source>
+            </localActions>
+            <localDeveloperName>off_topic</localDeveloperName>
+            <masterLabel>Off Topic</masterLabel>
+            <pluginType>Topic</pluginType>
+        </localTopics>
+        <masterLabel>On boarding Agent</masterLabel>
+        <plannerType>Atlas__ConcurrentMultiAgentOrchestration</plannerType>
+    </planner>
+    <smallTalkEnabled>false</smallTalkEnabled>
+    <staticPromptsEnabled>false</staticPromptsEnabled>
+    <status>Active</status>
+    <stopRecPrompts>false</stopRecPrompts>
+    <surfacesEnabled>false</surfacesEnabled>
+    <toneType>Casual</toneType>
+    <version>2</version>
+    <welcomeMessage>Hi! I’m Agentforce, an AI assistant. I can help assist new employees with answers to frequently asked questions, identify and connect new employees with the right internal experts and mentors, and direct them to the right Slack channels for more information.</welcomeMessage>
+</AiAgentDefinitionVersion>
