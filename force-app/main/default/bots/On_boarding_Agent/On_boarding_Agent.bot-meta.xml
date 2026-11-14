@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentDSLEnabled>true</agentDSLEnabled>
+    <agentTemplate>Slack__SlackOnboarding</agentTemplate>
+    <agentType>AgentforceEmployeeAgent</agentType>
+    <botMlDomain>
+        <label>On boarding Agent</label>
+        <name>On_boarding_Agent</name>
+    </botMlDomain>
+    <botSource>None</botSource>
+    <description>Help employees get up to speed in Slack when new to the company or starting a new role. Easily find internal points of contact and subject matter experts, and get answers on company policy details.</description>
+    <label>On boarding Agent</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>InternalCopilot</type>
+</Bot>
