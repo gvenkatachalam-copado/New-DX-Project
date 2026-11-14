@@ -1,0 +1,34 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "channelId" : {
+      "title" : "{!$Label.SendSlackDirectMessageAction.ChannelIdOutputTitle}",
+      "description" : "{!$Label.SendSlackDirectMessageAction.ChannelIdOutputDescription}",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "The Slack direct message channel ID for the sent message.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    },
+    "messageUrl" : {
+      "title" : "{!$Label.SendSlackDirectMessageAction.MessageUrlOutputTitle}",
+      "description" : "{!$Label.SendSlackDirectMessageAction.MessageUrlOutputDescription}",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "The Slack direct message URL for the sent message; opens in Slack.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    },
+    "messageTs" : {
+      "title" : "{!$Label.SendSlackDirectMessageAction.MessageTsOutputTitle}",
+      "description" : "{!$Label.SendSlackDirectMessageAction.MessageTsOutputDescription}",
+      "lightning:type" : "lightning__textType",
+      "einstein:description" : "The timestamp for when the direct message was sent in Slack.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}
