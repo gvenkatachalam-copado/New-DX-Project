@@ -3,6 +3,10 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "customKKPackage",
+      "default": false
     }
   ],
   "name": "DX Project",
