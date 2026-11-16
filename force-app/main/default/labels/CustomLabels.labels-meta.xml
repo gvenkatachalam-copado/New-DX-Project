@@ -16,4 +16,11 @@
         <shortDescription>Project Request Demo rejected message</shortDescription>
         <value>Your project request has been rejected.</value>
     </labels>
+    <labels>
+        <fullName>Test_KK_Customer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Test KK Customer</shortDescription>
+        <value>Copyright reserved @ 2026</value>
+    </labels>
 </CustomLabels>
