@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>PR_Demo_Approved_Message</fullName>
-        <categories>ProjectRequestDemo</categories>
+        <fullName>Test_KK_Customer</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Project Request Demo approved message</shortDescription>
-        <value>Your project request has been approved.</value>
-    </labels>
-    <labels>
-        <fullName>PR_Demo_Rejected_Message</fullName>
-        <categories>ProjectRequestDemo</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Project Request Demo rejected message</shortDescription>
-        <value>Your project request has been rejected.</value>
+        <shortDescription>Test KK Customer</shortDescription>
+        <value>Copyright reserved @ 2026</value>
     </labels>
 </CustomLabels>
