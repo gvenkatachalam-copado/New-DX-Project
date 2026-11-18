@@ -5,7 +5,7 @@
       "default": true
     },
     {
-      "path": "customKKPackage",
+      "path": "customKKPackage/main/default",
       "default": false
     }
   ],
