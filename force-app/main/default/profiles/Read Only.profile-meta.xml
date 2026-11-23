@@ -17977,11 +17977,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>LiveChatTranscript.SkillId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>LiveChatTranscript.StartTime</field>
         <readable>false</readable>
     </fieldPermissions>
