@@ -3,6 +3,11 @@
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <custom>true</custom>
     <description n1:nil="true" />
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Exclude_from_Auto_Resolve__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <loginHours n1:nil="true" />
     <userLicense>Salesforce</userLicense>
     <userPermissions>
@@ -59,6 +64,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>CustomizeApplication</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
@@ -91,7 +100,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageInteraction</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageTranslation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyMetadata</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
