@@ -26,6 +26,11 @@
             <start>34.124.152.83</start>
         </ipRanges>
         <ipRanges>
+            <description>Gong IP</description>
+            <end>34.73.251.138</end>
+            <start>34.73.251.138</start>
+        </ipRanges>
+        <ipRanges>
             <description>CRT NA Backend IP whitelist</description>
             <end>3.216.108.92</end>
             <start>3.216.108.92</start>
