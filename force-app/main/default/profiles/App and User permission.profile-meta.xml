@@ -4,9 +4,9 @@
     <custom>true</custom>
     <description n1:nil="true" />
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Exclude_from_Auto_Resolve__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <loginHours n1:nil="true" />
     <userLicense>Salesforce</userLicense>
